@@ -1,13 +1,81 @@
 body {
+ /* background: -webkit-linear-gradient(to right, #004e92, #000428);  */
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem!important;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color:#007bff;
+  margin-bottom:30px;
+  font-size:2rem!important;
+  text-align: center;
+}
+
+.main-content{
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.content {
+  padding:20px;
+}
+
+.error {
+  text-align: center;
+}
+
+.campo {
+  margin-bottom: 2rem;
+}
+
+.gastos-realizados  {
+  margin-bottom: 2rem;
+}
+
+.gastos-realizados li{
+  list-style: none;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1rem 0;
+}
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0!important;
+}
+.gastos-realizados li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+}
+.gastos-realizados li p .gasto {
+  background-color: #007bff;
+  padding: 1rem;
+  color:white;
+}
+
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.btn {
+  margin-top: 1rem;
 }
